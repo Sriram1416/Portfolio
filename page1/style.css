@@ -1,0 +1,266 @@
+body{
+    background-image: url("WhatsApp Image 2025-03-20 at 18.31.59_7583902e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #about{
+    position: relative;
+    left: 950px;
+    color: azure;
+}
+
+#profile{
+    position: relative;
+    left: 1000px;
+    color: azure;
+}
+#contactus{
+    position: relative;
+    left: 1050px;
+    color: azure;
+}
+#education{
+    position: relative;
+    left:1100px;
+    color: azure;
+}
+#c{
+    width: 350px;
+    height: 600px;
+    border: 2px;
+    border-style: groove;
+    background-color: rgba(139, 0, 53, 0.793);
+    position: sticky;
+    border-radius: 0px 600px ;
+    text-decoration: line-through;
+    
+    
+}
+.d{
+    position: relative;
+    left: 350px;
+    top: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px red;
+
+}
+#c{
+    box-shadow:10px 10px 25px 10px;
+}
+h1{
+    font-style: oblique;
+    margin-left: 900px;
+position:absolute;
+top:300px;
+color: beige;
+
+}
+h3{
+    margin-left: 950px;
+    position:absolute;
+    top:360px;
+}
+#v{
+  color:  white;
+}
+#b{
+  background-color: rgba(151, 33, 78, 0.933);
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+}
+#frist{
+  text-decoration: none;
+}
+#me
+    {
+        font-family: sans-serif;
+        line-height: 1.6;
+        margin: 20px; 
+        overflow: auto;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto; 
+    }
+    h1, h2, h3 {
+        color: #333; 
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .contact-info {
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    .details-list {
+        list-style-type: none; 
+        padding-left: 0;
+    }
+    .details-list li {
+        margin-bottom: 5px;
+    }
+    .declaration {
+        margin-top: 20px;
+    }
+    .photo{
+        position: relative; 
+        top: 150px; 
+        left: 500px; 
+        width: 125px;
+        height: 125px;
+    }
+    contact .info-wrap {
+        background-color: var(--surface-color);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+      }
+      
+      @media (max-width: 575px) {
+        .contact .info-wrap {
+          padding: 20px;
+        }
+      }
+      
+      .contact .info-item {
+        margin-bottom: 40px;
+      }
+      
+      .contact .info-item i {
+        font-size: 20px;
+        color: var(--accent-color);
+        background: color-mix(in srgb, var(--accent-color), transparent 92%);
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+        margin-right: 15px;
+      }
+      
+      .contact .info-item h3 {
+        padding: 0;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+      
+      .contact .info-item p {
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+      }
+      
+      .contact .info-item:hover i {
+        background: var(--accent-color);
+        color: var(--contrast-color);
+      }
+      
+      .contact .php-email-form {
+        background-color: var(--surface-color);
+        height: 100%;
+        padding: 30px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      @media (max-width: 575px) {
+        .contact .php-email-form {
+          padding: 20px;
+        }
+      }
+      
+      .contact .php-email-form input[type=text],
+      .contact .php-email-form input[type=email],
+      .contact .php-email-form textarea {
+        font-size: 14px;
+        padding: 10px 15px;
+        box-shadow: none;
+        border-radius: 0;
+        color: var(--default-color);
+        background-color: var(--surface-color);
+        border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+      }
+      
+      .contact .php-email-form input[type=text]:focus,
+      .contact .php-email-form input[type=email]:focus,
+      .contact .php-email-form textarea:focus {
+        border-color: var(--accent-color);
+      }
+      
+      .contact .php-email-form input[type=text]::placeholder,
+      .contact .php-email-form input[type=email]::placeholder,
+      .contact .php-email-form textarea::placeholder {
+        color: color-mix(in srgb, var(--default-color), transparent 70%);
+      }
+      
+      .contact .php-email-form button[type=submit] {
+        color: var(--contrast-color);
+        background: var(--accent-color);
+        border: 0;
+        padding: 10px 30px;
+        transition: 0.4s;
+        border-radius: 50px;
+      }
+      
+      .contact .php-email-form button[type=submit]:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 25%);
+      }
+      .sr{
+        width: 600px;
+        height: 200px;
+        border: 2px;
+        border-style: double;
+        background-color: white;
+        margin-left: 450px;
+        border-radius: 0px 0px 80px 0px;
+      }
+      .ir{
+        width: 600px;
+        height: 200px;
+        border: 2px;
+        border-style: double;
+        background-color: white;
+        margin-left: 450px;
+        border-radius: 0px 0px 80px 0px;
+      }
+      .am{
+        width: 600px;`  `
+        height: 200px;
+        border: 2px;
+        border-style: double;
+        background-color: white;
+        margin-left: 450px;
+        border-radius: 0px 0px 80px 0px;
+      }
+      #c:hover{
+        box-shadow:10px 10px 25px 10px;
+      }
+      #u{
+        background-color: black;
+        color: aliceblue;
+        position: relative;
+        left: 900px;
+        bottom: 200px;
+        border-radius: 20px 20px 20px 20px ;
+      }
+    
+  
+    
+    
